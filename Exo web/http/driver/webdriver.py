@@ -1,9 +1,9 @@
 from bs4 import BeautifulSoup
 import requests
-import pandas as pd
-import pygsheets
-import matplotlib.pyplot as plt
-
+from pandas import pandas as pd
+import gspread
+from df2gspread import df2gspread as d2g
+from oauth2client.service_account import ServiceAccountCredentials
 
 url = ("https://www.worldometers.info/coronavirus/countries-where-coronavirus-has-spread/")
 response = requests.get(url)
@@ -14,8 +14,6 @@ content = response.content
 
 soup = BeautifulSoup(content,"html.parser")
 
-
-#"print(soup.find_all("tr"))"
 country = []
 cases = []
 death = []
@@ -35,13 +33,19 @@ df = pd.DataFrame({
     "continent" : continent,
 })
 
-df.to_csv("Covid.csv", header=False,index=False)
+scope = ['https://spreadsheets.google.com/feeds',
+         'https://www.googleapis.com/auth/drive']
 
-gc = pygsheets.authorize(service_file=r"C:\Users\vorzt\Documents\python\test\http\covid-326012-a9cd67e43392.json")
-sh = gc.open('PY to Gsheet Test')
-wks = sh[0]
-wks.set_dataframe(df,(1,1))
+credentials = ServiceAccountCredentials.from_json_keyfile_name(r"C:\Users\vorzt\Documents\python\Exo web\http\driver\covid-326012-a9cd67e43392.json", scope)
+
+gc = gspread.authorize(credentials)
+
+spreadsheet_key = "1hZ-1AZGsEOt52G_Xt5BZMsLi7eMetDhdTjBCkbWU3Go"
+wks_name = "Test1"
+
+d2g.upload(df, spreadsheet_key, wks_name, credentials = credentials, row_names = True)
+
+#gc = pygsheets.authorize(service_file=r"C:\Users\vorzt\Documents\python\test\http\covid-326012-a9cd67e43392.json")
+print("2")
 
 
-plt.plot(df)
-plt.show()
