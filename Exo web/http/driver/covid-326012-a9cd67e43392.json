@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "covid-326012",
+  "private_key_id": "a9cd67e4339278e03d98dfa9ec20fd38c5c862a0",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCTxlPyn0qeYBLS\nAovaBtFCcuSP19pqtLM35Id3MsqIW29Vcnpuf/OiPWGB1IxhS+ra6oOLSWKEqnRf\nDDL8Bb3Gfnsw9cq4cQwDUZ0PPGo1gUK+3VwzNrawpGFp0ZuPNtNuAdES6Z86M766\nQ+GTPgWWIJTm0LrE9huvXxG9FtZxc7QsZezsHTkFMUBxcRsM78tMFt5xgLcX3tj8\nAJGhsSguPOrtJWsFyxl6M9vsz9QHA1/V4DZG18I/Vsal6vztxaUIEsIhqd2HsTd3\nz7sDe252Co9k9aR8KdGwX+KHjirE9x4jSowuc7BAeD37ylz/eHNxwR/7dsNGwCy0\nrqsefHQ3AgMBAAECggEAHEaKsZYBNSS09TI/iExdphVN3qgyxtAkqsEzmn9Bea3l\nM7hf7NzWxWhxS+JbqhJYseLFoNU94Jys/7LZ3pdKpLx23ftp+rjGz6vCHbQ1rl85\nYkQA7Fu/wTTy3siYt2KKOjZmxvOk4AIesI1kkEQB1aQOWcv+sMlWqsvKHSBNkA+F\nLl8I1ijOuNAmGWATx7Zh3ZKvABHntpDrtyHVR/odS19lEtH69utBxqypb93hnQJD\n6tG+CPKi4OPOOKPL806U+33zDIEYOVIAKegxl4CnBysuVdxRLkupneMgCpmWcikW\nZGFsE/4dUui+tWcs5dkB161vtOomnIZ0y+xfWzAE4QKBgQDEWI7ArgqQAxRUuOr4\n92b0FgRyaf94Ru8eheEuT2rAGsfgBlL/yRZhV9p6XFeb/EA+PFp7yL+xrCgS/5eI\nWsyMpm3l7h1BhCYtbxef1SogybScfmDUTZY5YzuQv5EGzlUJaw49u+B/9wAIDwbZ\ntx8KcNKAZPtNZHof4nsuTgtRtQKBgQDAq/yWs3brSDL9p5OAZ3nIg3kjDUi98vmk\n5wZkWJM4rwDAYjpAl8qr2I/DdlpNNtxDYl5u50G213nYjOOSJyHBX2Ec/P+R66dD\nR1gV9gJJrPGkKRQ4aCDyqnZtwUJyhjLZu2yOrx72IAbA8h1fQBAWRPfx7vZd0lQR\ngju/8lfRuwKBgQCI7h24QGg7YPpnz4KHWLqjFUvKoyO4NPgEOGf/TQFssgCcuqxd\nmFaUUpmaZhXvQe9nt91+oFUXyrEz9q4uOOyYVmUkSnh6vXeGjghSvm2f6iucTAKp\nbOaMZSkgXIj+zxy88b0/zmvVsmOCO0CSy0PJmz8ircoYgi8tV1yCwYjhVQKBgBQr\nrTTlsuRs2ZG+km2V56T7RppJ0Ly6DDKcUQn+T+NWRuDdJ7YNbhVRhbNz135P6P1Q\n9gvsP+/xXPszvLtXR2xkHNmZDvRq1Ebx2CHscE7gQSfreQdyt0hQWjehTOCKdhZf\nTb0eTkJ8FdjrP/Hx1f1O2RpF5xrpYw22MaUlrNXzAoGAUNf5jfih6lnINC3Jk+3w\nicz+MzRW/ZQBJotHIZRTLUPQG6ODC/qdikYA3vX+EBt82sIiIDDKxIYAVCqQCWGn\nEXx0GsPoQI5GY2DAzDKN/tlbPn1iTBev+vQ1kEomeZ5CkRnuhsUA8owbTJo+boHb\nV2XmiTqI0xlDiVRHgCK/Jmo=\n-----END PRIVATE KEY-----\n",
+  "client_email": "vorztek@covid-326012.iam.gserviceaccount.com",
+  "client_id": "109194023476850279807",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/vorztek%40covid-326012.iam.gserviceaccount.com"
+}
