@@ -40,8 +40,5 @@ elif  player1 =="feuille" and player2 =="ciseaux" :
 elif player1 =="ciseaux" and player2 =="pierre" :
     winner= player2
 elif player1 =="ciseaux" and player2 =="feuille" :
-   
 
 liste_resultat.append(winner)
-print("Player1:",player1,"Player2:",player2)
-print(liste_resultat)

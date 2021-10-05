@@ -31,3 +31,4 @@ def gen_number(o,p):
 
 #o = nombre de valeur voulue
 #p = valeur max
+print(gen_number(1,3))

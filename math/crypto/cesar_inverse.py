@@ -4,7 +4,7 @@ from ascii import asc_ii
 
 alphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
 ponc = " !.,:?'"
-phrase = "Nolot merguez"
+phrase = "Ahmed prenium"
 binaire = []
 ponct_add = ""
 phrase_trad = ""
